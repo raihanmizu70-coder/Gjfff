@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GST Code Category</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 20px;
+    }
+    .category-box {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #333;
+    }
+    .item {
+      padding: 12px 16px;
+      background: #f0f3f7;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.25s;
+    }
+    .item:hover {
+      background: #e2e7ee;
+    }
+    .name {
+      font-weight: bold;
+      color: #111;
+    }
+    .code {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="category-box">
+    <h2>💌 Category 2: GST.Code Sell</h2>
+    <p>এখানে বিভিন্ন GST কোড সুন্দর ভাবে সাজানো থাকবে:</p>
+
+    <!-- একেকটা কুড আইটেম এখানে যোগ হবে -->
+
+    <div class="item">
+      <div class="name">GST.Code Name 1</div>
+      <div class="code">GST-001</div>
+    </div>
+
+    <div class="item">
+      <div class="name">GST.Code Name 2</div>
+      <div class="code">GST-002</div>
+    </div>
+
+    <div class="item">
+      <div class="name">GST.Code Name 3</div>
+      <div class="code">GST-003</div>
+    </div>
+
+    <!-- আপনি যখন কুড আপলোড করবেন, প্রতিটা এভাবে কপি করে বসাবেন -->
+  </div>
+</body>
+</html>
